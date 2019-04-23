@@ -1,0 +1,3 @@
+O que acontece ao iniciar um repositório? Por que você precisa fazer isso?
+R: Nenhum commit é criado e o histórico não é rastreado. 
+Ao iniciar você cria um .git para transformar o diretório comum em um repositório git.

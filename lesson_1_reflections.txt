@@ -1,0 +1,17 @@
+o comando diff mostra as linhas que foram modificadas em 2 arquivos semelhantes. É bom para ver as diferenças antes e depois da modificação.
+
+Como ter fácil acesso a todo o histórico de um arquivo pode torná-lo um programador mais eficiente no longo prazo?
+Poder ver modificações antigas pode salvar o projeto, caso faça alterações e esqueça determinado ponto
+
+Na sua opinião, quais são os prós e contras de escolher manualmente quando criar um commit, 
+como ocorre no Git, v. o salvamento automático de versões, como no Google Docs?
+Prós: salvar alterações apenas quando necessário.
+Contras: deixar de salvar alterações no momento certo, passar muito tempo sem fazer commits.
+
+Por que você acha que alguns sistemas de controle de versão, como o Git, permitem salvar vários arquivos em um commit, 
+enquanto outros, como o Google Docs, tratam cada arquivo separadamente?
+Porque as alterações de um commit podem envolver uma alteração conjunta de vários arquivos representando uma mudança lógica.
+
+Como usar os comandos git log e git diff para visualizar o histórico dos arquivos?
+git log apenas mostra o histórico de commits, deve-se colocar no terminal: "git log". 
+git diff mostra a diferença entre dois commits, deve-se colocar no terminal: "git diff idcommit1 idcommit2".
