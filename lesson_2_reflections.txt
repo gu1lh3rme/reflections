@@ -1,3 +1,25 @@
 O que acontece ao iniciar um repositório? Por que você precisa fazer isso?
 R: Nenhum commit é criado e o histórico não é rastreado. 
 Ao iniciar você cria um .git para transformar o diretório comum em um repositório git.
+
+Em que se difere a área de preparação do diretório de trabalho e do repositório? Qual valor você acha que ela oferece?
+R: A área de preparação é uma área temporária para selecionar os arquivos que deverão ser enviados ao repositório.
+Assim, é possível revisar o que irá ao repositório com o commit.
+
+Como você pode usar a área de preparação para garantir que tenha um commit por alteração lógica?
+R: Adicionando cada alteração na staging área é possível manter 
+um arquivo que pode ser alterado sempre, antes de finalmente dar um commit.
+
+Quais são algumas das situações em que branches seriam úteis para manter seu histórico organizado? Como branches ajudariam?
+R: Uma mudança totalmente diferente da branch master, como uma nova interface, um comando alternativo, testes. 
+Ajudariam mantendo o projeto principal sem misturar com uma alteração alternativa.
+
+Como os diagramas ajudam a visualizar a estrutura de branches?
+R: Mais fácil ver quais branches estão na estrutura e quais commits foram feitos.
+
+Qual é o resultado da mesclagem de dois branches? Por que o representamos no diagrama dessa forma?
+R: É a união das modificações de arquivos entre dois projetos diferentes. 
+
+Quais são os prós e contras da mesclagem automática do Git v. sempre fazer mesclagens manualmente?
+R: Prós: Tempo, automatiza o processo.
+Contras: Arquivos não revisados antes da mesclagem.
